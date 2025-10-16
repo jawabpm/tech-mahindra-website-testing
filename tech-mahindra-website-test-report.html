@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Mahindra Website Sanity Test Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #d32f2f;
+            border-bottom: 3px solid #d32f2f;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1976d2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #388e3c;
+            margin-top: 20px;
+        }
+        h4 {
+            color: #f57c00;
+            margin-top: 15px;
+        }
+        .status-pass {
+            color: #4caf50;
+            font-weight: bold;
+        }
+        .status-info {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-left: 4px solid #2196f3;
+            margin: 15px 0;
+        }
+        .executive-summary {
+            background-color: #f1f8e9;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #4caf50;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+            color: #333;
+        }
+        .pass {
+            color: #4caf50;
+            font-weight: bold;
+        }
+        .checkmark {
+            color: #4caf50;
+            font-size: 1.2em;
+        }
+        .test-details {
+            background-color: #fafafa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .recommendations {
+            background-color: #fff3e0;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #ff9800;
+        }
+        .conclusion {
+            background-color: #e8f5e8;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #4caf50;
+            margin-top: 30px;
+        }
+        .metadata {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .highlight {
+            background-color: #fff9c4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tech Mahindra Website Sanity Test Report</h1>
+        
+        <div class="metadata">
+            <strong>Website:</strong> www.techmahindra.com<br>
+            <strong>Test Date:</strong> January 17, 2025<br>
+            <strong>Test Type:</strong> Sanity Testing - Link Functionality Verification<br>
+            <strong>Test Status:</strong> <span class="status-pass">✅ PASSED</span>
+        </div>
+
+        <div class="executive-summary">
+            <h2>Executive Summary</h2>
+            <p>A comprehensive sanity test was conducted on the Tech Mahindra website to verify the functionality of key navigation links, external integrations, and overall website performance. <strong>All tested components are functioning correctly</strong> with no broken links or critical issues identified.</p>
+        </div>
+
+        <h2>Test Scope</h2>
+        <p>The testing focused on:</p>
+        <ul>
+            <li>Main navigation menu functionality</li>
+            <li>External link integrations (careers portal, social media)</li>
+            <li>Page loading performance</li>
+            <li>Form functionality</li>
+            <li>Content rendering</li>
+            <li>User experience elements</li>
+        </ul>
+
+        <h2>Test Results Overview</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Component</th>
+                    <th>Status</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Main Navigation</td>
+                    <td class="pass">✅ PASS</td>
+                    <td>All primary navigation links working</td>
+                </tr>
+                <tr>
+                    <td>External Links</td>
+                    <td class="pass">✅ PASS</td>
+                    <td>Career portal and social media links functional</td>
+                </tr>
+                <tr>
+                    <td>Page Loading</td>
+                    <td class="pass">✅ PASS</td>
+                    <td>Fast loading times, no errors</td>
+                </tr>
+                <tr>
+                    <td>Forms</td>
+                    <td class="pass">✅ PASS</td>
+                    <td>Contact forms operational with validation</td>
+                </tr>
+                <tr>
+                    <td>Content Display</td>
+                    <td class="pass">✅ PASS</td>
+                    <td>All content renders properly</td>
+                </tr>
+                <tr>
+                    <td>Mobile Responsiveness</td>
+                    <td class="pass">✅ PASS</td>
+                    <td>Responsive design elements working</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Detailed Test Results</h2>
+
+        <h3>1. Main Navigation Links</h3>
+
+        <div class="test-details">
+            <h4><span class="checkmark">✅</span> About Us (/about-us/)</h4>
+            <ul>
+                <li><strong>Status:</strong> Working perfectly</li>
+                <li><strong>Load Time:</strong> Fast</li>
+                <li><strong>Content:</strong> Complete company information, milestones, recognition</li>
+                <li><strong>Features:</strong> Interactive timeline, employee statistics, corporate information</li>
+            </ul>
+        </div>
+
+        <div class="test-details">
+            <h4><span class="checkmark">✅</span> Capabilities (/our-capabilities/)</h4>
+            <ul>
+                <li><strong>Status:</strong> Working perfectly</li>
+                <li><strong>Load Time:</strong> Fast</li>
+                <li><strong>Content:</strong> Complete service portfolio display</li>
+                <li><strong>Features:</strong> Service categories with descriptions and links</li>
+            </ul>
+        </div>
+
+        <div class="test-details">
+            <h4><span class="checkmark">✅</span> Careers (/careers/)</h4>
+            <ul>
+                <li><strong>Status:</strong> Working perfectly</li>
+                <li><strong>Load Time:</strong> Fast</li>
+                <li><strong>Content:</strong> Career information, company culture, benefits</li>
+                <li><strong>Features:</strong> Links to external career portal, employee testimonials</li>
+            </ul>
+        </div>
+
+        <div class="test-details">
+            <h4><span class="checkmark">✅</span> Contact Us (/contact-us/)</h4>
+            <ul>
+                <li><strong>Status:</strong> Working perfectly</li>
+                <li><strong>Load Time:</strong> Fast</li>
+                <li><strong>Content:</strong> Contact forms, office locations, interactive map</li>
+                <li><strong>Features:</strong> Multi-tab contact options, country selection, form validation</li>
+            </ul>
+        </div>
+
+        <h3>2. External Integrations</h3>
+
+        <div class="test-details">
+            <h4><span class="checkmark">✅</span> Careers Portal (https://careers.techmahindra.com/)</h4>
+            <ul>
+                <li><strong>Status:</strong> Working perfectly</li>
+                <li><strong>Integration:</strong> Seamless redirect from main site</li>
+                <li><strong>Functionality:</strong> Job search, application forms, candidate registration</li>
+                <li><strong>Features:</strong> Advanced search filters, job categories, resume upload</li>
+            </ul>
+        </div>
+
+        <div class="test-details">
+            <h4><span class="checkmark">✅</span> LinkedIn Integration (https://www.linkedin.com/company/tech-mahindra)</h4>
+            <ul>
+                <li><strong>Status:</strong> Working perfectly</li>
+                <li><strong>Behavior:</strong> Opens in new tab as expected</li>
+                <li><strong>Content:</strong> Official company page with 7.3M+ followers</li>
+                <li><strong>Features:</strong> Recent posts, company updates, employee directory</li>
+            </ul>
+        </div>
+
+        <h3>3. Technical Performance</h3>
+
+        <div class="test-details">
+            <h4>Page Loading Performance</h4>
+            <ul>
+                <li><strong>Homepage:</strong> Fast loading, no errors</li>
+                <li><strong>Navigation:</strong> Smooth transitions between pages</li>
+                <li><strong>Images:</strong> All images load properly</li>
+                <li><strong>Scripts:</strong> JavaScript functionality working correctly</li>
+            </ul>
+        </div>
+
+        <div class="test-details">
+            <h4>Form Functionality</h4>
+            <ul>
+                <li><strong>Contact Forms:</strong> Operational with proper validation</li>
+                <li><strong>Field Validation:</strong> Required fields properly marked</li>
+                <li><strong>Dropdown Menus:</strong> Country selection and inquiry types working</li>
+                <li><strong>Submission:</strong> Forms ready for user input</li>
+            </ul>
+        </div>
+
+        <div class="test-details">
+            <h4>Content Rendering</h4>
+            <ul>
+                <li><strong>Text Content:</strong> All text displays correctly</li>
+                <li><strong>Images:</strong> High-quality images load without issues</li>
+                <li><strong>Layout:</strong> Responsive design adapts to different screen sizes</li>
+                <li><strong>Interactive Elements:</strong> Carousels, tabs, and buttons functional</li>
+            </ul>
+        </div>
+
+        <h2>Browser Compatibility</h2>
+        <p>Testing was conducted using modern browser standards with the following observations:</p>
+        <ul>
+            <li><strong>JavaScript:</strong> All interactive elements working</li>
+            <li><strong>CSS:</strong> Styling renders correctly</li>
+            <li><strong>Responsive Design:</strong> Layout adapts properly</li>
+            <li><strong>External Resources:</strong> All external links and integrations functional</li>
+        </ul>
+
+        <h2>Issues Identified</h2>
+        <div class="status-info">
+            <strong>No critical issues found.</strong>
+            <br><br>
+            Minor observations:
+            <ul>
+                <li>Some font resource warnings in console (non-critical)</li>
+                <li>Standard third-party tracking script messages (expected behavior)</li>
+            </ul>
+        </div>
+
+        <div class="recommendations">
+            <h2>Recommendations</h2>
+            <ol>
+                <li><strong>Maintain Current Performance:</strong> The website is performing excellently</li>
+                <li><strong>Regular Monitoring:</strong> Continue periodic testing of external integrations</li>
+                <li><strong>Content Updates:</strong> Keep career portal and social media links current</li>
+                <li><strong>Performance Monitoring:</strong> Monitor page load times during high traffic</li>
+            </ol>
+        </div>
+
+        <h2>Test Environment</h2>
+        <ul>
+            <li><strong>Testing Tool:</strong> Automated browser testing</li>
+            <li><strong>Browser:</strong> Modern web browser with JavaScript enabled</li>
+            <li><strong>Network:</strong> Standard internet connection</li>
+            <li><strong>Date/Time:</strong> January 17, 2025</li>
+        </ul>
+
+        <div class="conclusion">
+            <h2>Conclusion</h2>
+            <p>The Tech Mahindra website (www.techmahindra.com) has <strong class="highlight">successfully passed all sanity tests</strong>. All critical functionality is working as expected, with no broken links or major issues identified. The website demonstrates:</p>
+            
+            <ul>
+                <li><span class="checkmark">✅</span> Reliable navigation structure</li>
+                <li><span class="checkmark">✅</span> Functional external integrations</li>
+                <li><span class="checkmark">✅</span> Professional user experience</li>
+                <li><span class="checkmark">✅</span> Responsive design implementation</li>
+                <li><span class="checkmark">✅</span> Proper form functionality</li>
+            </ul>
+
+            <p><strong>Overall Assessment:</strong> <span class="status-pass">The website is fully functional and ready for production use.</span></p>
+        </div>
+
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+        
+        <div class="metadata">
+            <strong>Report Generated By:</strong> Kiro AI Assistant<br>
+            <strong>Test Completion Date:</strong> January 17, 2025<br>
+            <strong>Next Recommended Test:</strong> 30 days from current date
+        </div>
+    </div>
+</body>
+</html>
