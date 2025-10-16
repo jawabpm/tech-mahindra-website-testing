@@ -1,0 +1,26 @@
+GitHub Setup Commands
+====================
+
+After creating your repository on GitHub, run these commands in your terminal:
+
+1. Add the remote repository:
+git remote add origin https://github.com/jawabpm/tech-mahindra-website-testing.git
+
+2. Push your files to GitHub:
+git branch -M main
+git push -u origin main
+
+Alternative if you prefer SSH (after setting up SSH keys):
+git remote add origin git@github.com:jawabpm/tech-mahindra-website-testing.git
+git branch -M main
+git push -u origin main
+
+Your repository will then be available at:
+https://github.com/jawabpm/tech-mahindra-website-testing
+
+Files that will be uploaded:
+- README.md (Project overview and documentation)
+- tech-mahindra-website-test-report.md (Markdown test report)
+- tech-mahindra-website-test-report.html (HTML test report)
+- tech-mahindra-website-testcases.csv (Excel-compatible test cases)
+- .kiro/ folder (Kiro configuration files)
