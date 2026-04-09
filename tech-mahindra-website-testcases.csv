@@ -2,7 +2,7 @@ Test Case ID,Test Case Name,Test Category,Test Priority,Preconditions,Test Steps
 TC001,Verify Homepage Loading,Functional,High,Browser is open and internet connection is available,"1. Open web browser
 2. Navigate to https://www.techmahindra.com
 3. Wait for page to load completely
-4. Verify page title and content","Homepage should load within 3 seconds with proper title 'Tech Mahindra | Scale at Speed' and all content visible","Homepage loaded successfully with correct title and all content displayed properly",PASS,Page loaded quickly without any errors,2025-01-17,Kiro AI Assistant
+4. Verify page title and content","Homepage should load within 3 seconds with proper title 'Tech Mahindra | Scale at Speed' and all content visible","Homepage loaded successfully with correct title and all content displayed properly",PASS,Homepage load validated by Playwright execution on 2026-04-09,2026-04-09,GitHub Copilot
 
 TC002,Verify About Us Navigation Link,Navigation,High,User is on Tech Mahindra homepage,"1. Locate 'About Us' link in main navigation
 2. Click on 'About Us' link
